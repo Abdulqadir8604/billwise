@@ -34,7 +34,7 @@ const BillSplitter = () => {
             <ul className={"userList"}>
                 {users.map((user) => (
                     <li key={user.id} className={"userItem"}>
-                        {user.name} (Ratio: {user.ratio})
+                        {user.name} (Percentage: {user.ratio}%)
                     </li>
                 ))}
             </ul>

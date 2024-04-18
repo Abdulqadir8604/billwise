@@ -1,3 +1,7 @@
+* {
+  background-color: black;
+}
+
 .App {
   text-align: center;
   font-family: "Courier New", monospace;
@@ -17,6 +21,10 @@
   max-width: 90%; /* Limit max width on larger screens */
 }
 
+h1 {
+  color: lightgreen;
+}
+
 /* Responsive user list */
 .userList {
   list-style: none; /* Remove default bullet points */
@@ -26,7 +34,7 @@
 
 .userList li {
   background-color: black;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border: 1px solid darkgreen;
   font-weight: bold;
   border-radius: 5px;
@@ -57,6 +65,7 @@
   background-color: #444;
   border: none;
   padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
   border-radius: 5px;
   color: lightgreen;
   font-weight: bold;
@@ -73,7 +82,7 @@
   padding: 1rem;
   border: 1px solid darkgreen;
   border-radius: 5px;
-  margin-top: 1rem;
+  margin: 1rem;
 }
 
 .splitAmountTitle {

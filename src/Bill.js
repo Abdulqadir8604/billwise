@@ -10,7 +10,7 @@ class Bill {
 
     calculateAmounts() {
         this.payees.forEach((payee) => {
-            payee.amount = (this.totalAmount * payee.splitPercentage) / 100;
+            payee.amount = (this.totalAmount * payee.splitPercentage);
         });
     }
 }
